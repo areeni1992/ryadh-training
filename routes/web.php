@@ -23,5 +23,4 @@ Route::get('/', function () {
 Route::prefix('dashboard')->group(function () {
     Route::resource('admins', AdminController::class);
     Route::resource('users', UserController::class);
-
 });
